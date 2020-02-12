@@ -33,4 +33,4 @@
 Если остались вопросы — почта artem@anmedio.ru или телеграм @artyom_ivanov
 
 # Материалы
-Макет доступен [по ссылке в режиме просмотра](https://www.figma.com/file/iqKdXp063fMoEFD7oZHxVS/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-frontend?node-id=1%3A66) или файлом (это фигма): [Тестовое frontend.fig](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/88b0e4ea-1f07-4857-9a74-e847e2372234/_frontend.fig)
+Макет доступен [по ссылке в режиме просмотра](https://www.figma.com/file/iqKdXp063fMoEFD7oZHxVS/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-frontend?node-id=1%3A66) или файлом тут же в репозитории (это фигма)
