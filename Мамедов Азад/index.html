@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Чистая вода</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="left_block">
+			<div class="promo_wrapper">
+				<div class="promo_image">
+					<img src="images/Mask Group.svg" alt="">
+					<h1>Чистая Вода</h1>
+				</div>
+				<div class="promo_descr">
+					Питьевая вода, предназначенная для ежедневного потребления, идеально подходит для кулеров. Закажите доставку воды и мы привезем её на дом или в офис.
+				</div>
+				<div class="btn_default mobile_btn open_order_form">
+					<button id="open_order_form">Заказать воду</button>
+				</div>
+			</div>
+		</div>
+		<div class="right_block">
+			<div class="order_form">
+				<div class="order_title"><span class="order_success"></span><button id="prev_page" class="prev_page mobile_btn"></button><h2>Заполните данные</h2></div>
+				<div class="order_contact_info">
+					<div class="contact_field">
+						<input type="text" placeholder="ФИО" name="customer_name" required>
+					</div>
+					<div class="contact_field">
+						<input type="email" placeholder="e-mail" name="customer_mail" required>
+					</div>
+					<div class="contact_field">
+						<input type="phone" placeholder="Телефон" name="customer_phone" required>
+					</div>
+					<div class="contact_field">
+						<input type="text" placeholder="Адрес доставки" name="customer_address" required>
+					</div>
+					<div class="contact_field privacy_policy">
+						<label class="privacy">
+							<span class="privacy_title">Я согласен на <span class="blue">обработку персональных данных</span></span>
+							<input type="checkbox" checked="checked" name="customer_privacy">
+							<span class="checkmark"></span>
+						</label>
+					</div>
+					<div class="btn_default mobile_btn open_order_detail">
+						<button id="open_order_detail" disabled="disabled">Далее</button>
+					</div>
+				</div>
+				<div class="order_detail">
+					<div class="water_volume_wrapper">
+						<h3>Вода</h3>
+						<div class="water_volume">
+							<div class="volume_variant variant_1 volume_variant_active">
+								<div class="bottle_params">
+									<span class="radio_btn"></span>
+									<div class="volume_value">18,9 л</div>
+									<div class="min_count_value">1 шт</div>
+									<div class="price"><span class="value">220</span> <span class="RUB">руб.</span></div>
+								</div>
+								<div class="bottle_count">
+									<a href="#" class="bottle_count_btn minus"></a>
+									<input type="text" value="1" name="count_field" readonly>
+									<a href="#" class="bottle_count_btn plus"></a>
+								</div>
+							</div>
+							<div class="volume_variant variant_2">
+								<div class="bottle_params">
+									<span class="radio_btn"></span>
+									<div class="volume_value">1,5 л</div>
+									<div class="min_count_value">6 шт</div>
+									<div class="price"><span class="value">175</span> <span class="RUB">руб.</span></div>
+								</div>
+								<div class="bottle_count">
+									<a href="#" class="bottle_count_btn minus"></a>
+									<input type="text" value="1" name="count_field" readonly>
+									<a href="#" class="bottle_count_btn plus"></a>
+								</div>
+							</div>
+							<div class="volume_variant variant_3">
+								<div class="bottle_params">
+									<span class="radio_btn"></span>
+									<div class="volume_value">0,5 л</div>
+									<div class="min_count_value">12 шт</div>
+									<div class="price"><span class="value">270</span> <span class="RUB">руб.</span></div>
+								</div>
+								<div class="bottle_count">
+									<a href="#" class="bottle_count_btn minus"></a>
+									<input type="text" value="1" name="count_field" readonly>
+									<a href="#" class="bottle_count_btn plus"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="water_delivery_wrapper">
+						<h3>Дата и время доставки</h3>
+						<div class="delivery_day">
+							<div class="delivery_title">День</div>
+							<div class="day_picker">
+							    <div class="slider-wrapper">
+							        <div class="tiny-slide">
+										<div class="slide">
+								        	<div class="day_value">1</div>
+								        	<div class="week_value">пн</div>
+										</div>
+							        </div>
+							        <div class="tiny-slide active_slide">
+										<div class="slide">
+								        	<div class="day_value">2</div>
+								        	<div class="week_value">вт</div>
+										</div>
+							        </div>
+							        <div class="tiny-slide">
+										<div class="slide">
+								        	<div class="day_value">3</div>
+								        	<div class="week_value">ср</div>
+										</div>
+							        </div>
+							        <div class="tiny-slide">
+										<div class="slide">
+								        	<div class="day_value">4</div>
+								        	<div class="week_value">чт</div>
+										</div>
+							        </div>
+							        <div class="tiny-slide">
+										<div class="slide">
+								        	<div class="day_value">5</div>
+								        	<div class="week_value">пн</div>
+										</div>
+							        </div>
+							        <div class="tiny-slide">
+										<div class="slide">
+								        	<div class="day_value">6</div>
+								        	<div class="week_value weekend">сб</div>
+										</div>
+							        </div>
+							        <div class="tiny-slide">
+										<div class="slide">
+								        	<div class="day_value">7</div>
+								        	<div class="week_value weekend">вс</div>
+										</div>
+							        </div>
+							        <div class="tiny-slide">
+										<div class="slide">
+								        	<div class="day_value">8</div>
+								        	<div class="week_value weekend">пн</div>
+										</div>
+							        </div>
+							    </div>
+								<div class="controls" id="customize-controls" aria-label="Carousel Navigation" tabindex="0">
+							        <div class="prev slider_btn button-prev" data-controls="prev" aria-controls="customize" tabindex="-1" id="button_date_prev"></div>
+							        <div class="next slider_btn button-next" data-controls="next" aria-controls="customize" tabindex="-1"></div>
+							    </div>
+							</div>
+						</div>
+						<div class="delivery_time">
+							<div class="delivery_title">Время</div>
+							<div class="delivery_time_list">
+								<div class="delivery_time_item"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="order_resume">
+					<div class="order_resume_item">
+						<div class="order_resume_item_title resume_bottle_variant"></div>
+						<div class="order_resume_item_value resume_bottle_count"></div>
+					</div>
+					<div class="order_resume_item delivery">
+						<div class="order_resume_item_title resume_date"></div>
+						<div class="order_resume_item_value resume_time"></div>
+					</div>
+					<div class="order_resume_item">
+						<div class="order_resume_item_title resume_address_title">Адрес доставки</div>
+						<div class="order_resume_item_value resume_address_value"></div>
+					</div>
+					<div class="order_resume_item">
+						<div class="order_resume_item_title resume_phone_title">Телефон</div>
+						<div class="order_resume_item_value resume_phone_value"></div>
+					</div>
+				</div>
+				<div class="total_price">
+					<div class="total_price_title">Итого</div>
+					<div class="total_price_value"><span class="int_value">220</span>,<span class="grey">00</span> <span class="RUB grey">.руб</span></div>
+				</div>
+				<div class="order_info">
+					<div class="order_info_detail">
+						Ваш заказ <span class="blue order_num">№221</span> успешно оформлен.<br>В ближайшее время по указанному телефону с Вами свяжется наш менеджер.
+					</div>
+				</div>
+				<div class="btn_default order_submit">
+					<button id="order_submit" disabled="disabled">Заказать воду</button>
+				</div>
+				<div class="btn_default new_order">
+					<button id="new_order">Новый заказ</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/inputmask.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
